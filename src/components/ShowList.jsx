@@ -1,4 +1,3 @@
-// src/components/ShowList.jsx
 import React, { useEffect, useState } from "react";
 import ShowCard from "./ShowCard";
 
