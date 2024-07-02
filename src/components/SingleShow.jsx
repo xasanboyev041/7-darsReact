@@ -17,7 +17,7 @@ const SingleShow = () => {
     <div className="single-show">
       <img src={show.image?.medium} alt={show.name} />
       <h1>{show.name}</h1>
-      <p>{show.summary}</p>
+      <p dangerouslySetInnerHTML={{ __html: show.summary }}></p>
     </div>
   );
 };
